@@ -1,0 +1,20 @@
+{
+  "name": "rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cls-bluebird": "^2.0.1",
+    "continuation-local-storage": "^3.2.0",
+    "express": "^4.16",
+    "jaeger-client": "^3.14.4",
+    "opentracing": "latest",
+    "request": "^2.88.0",
+    "request-promise": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
