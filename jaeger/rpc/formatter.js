@@ -9,8 +9,6 @@ const config = {
   serviceName: 'jaeger-formatter',
   reporter: {
     logSpans: true,
-  //    agentHost: '47.75.121.242',
-  //    agentPort: 6832,
     collectorEndpoint: 'http://127.0.0.1:14268/api/traces'
   },
   sampler: {
